@@ -1,10 +1,11 @@
+import TextInput from "./components/forms/text-input"
+
 function App() {
 
   return (
     <>
-      <h1 className="text-3xl font-bold">
-        Hello world!
-      </h1>
+      <TextInput label="Project Owner Username" />
+      <TextInput label="Repository name" />
     </>
   )
 }
